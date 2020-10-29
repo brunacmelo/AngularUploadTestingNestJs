@@ -4,8 +4,8 @@ import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 import { editFileName, imageFileFilter } from '../utils/file-upload.utils';
 import { diskStorage } from 'multer';
 
-@Controller('files')
-export class FilesController {
+@Controller('upload')
+export class UploadController {
     contructor() {}
 
     @Post()
